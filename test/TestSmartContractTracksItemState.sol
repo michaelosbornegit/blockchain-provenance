@@ -2,14 +2,14 @@ pragma solidity ^0.4.24;
 
 import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
-import "../contracts/SmartContractHoldsAllState.sol";
+import "../contracts/SmartContractTracksItemState.sol";
 
-contract TestSmartContractHoldsAllState {
+contract TestSmartContractTracksItemState {
 
-    SmartContractHoldsAllState theContract;
+    SmartContractTracksItemState theContract;
 
     function beforeEach() public {
-        theContract = new SmartContractHoldsAllState();
+        theContract = new SmartContractTracksItemState();
     }
 
     function testOneItemEntry() public {
