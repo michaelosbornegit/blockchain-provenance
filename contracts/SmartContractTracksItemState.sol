@@ -15,7 +15,7 @@ contract SmartContractTracksItemState {
     // A mapping of unique identifier hashes of items to their records.
     mapping(bytes32 => itemState[]) public itemRecords;
     
-    function createItem(string _identifier, uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {
+    function updateOrAddItem(string _identifier, uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {
         
         itemState memory newIS = itemState({barcode:_barcode, locationCode:_locationCode, timeStamp:_timeStamp});
     
