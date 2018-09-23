@@ -1,5 +1,5 @@
-var ItemHoldsAllState = artifacts.require("ItemHoldsAllState");
+var SmartContractHoldsAllState = artifacts.require("SmartContractHoldsAllState");
 
 module.exports = function(deployer) {
-    deployer.deploy(ItemHoldsAllState);
+    deployer.deploy(SmartContractHoldsAllState);
 };

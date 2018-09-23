@@ -1,9 +1,10 @@
 pragma solidity ^0.4.24;
 
-// This is a simple example of a smart contract where each item holds the
-// complete state history of the item being tracked.
+// This is a simple example of a smart contract where the smart contract holds the
+// complete state history of each item using a mapping of unique identifiers to 
+// dynamically sized arrays of item states.
 
-contract ItemHoldsAllState {
+contract SmartContractHoldsAllState {
 
     struct itemState {
         uint256 barcode;      // The general identifier, what is this item?
