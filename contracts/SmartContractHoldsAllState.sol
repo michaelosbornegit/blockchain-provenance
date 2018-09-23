@@ -22,8 +22,4 @@ contract SmartContractHoldsAllState {
         itemRecords[keccak256(abi.encodePacked(_identifier))].push(newIS);
     }
 
-    function getItemBarcode(string _identifier) public view returns (uint256 barcode) {
-        
-        return itemRecords[keccak256(abi.encodePacked(_identifier))][0].barcode;
-    }
 }
