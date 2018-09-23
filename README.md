@@ -5,4 +5,4 @@ This project uses the Truffle smart contract development environment, install Tr
 
     truffle test
 
-and watch as the tests pass with flying colors. Then inspect the code in ./tests and ./contracts to see what you did. UI and actual functionality coming, but for now that's it.
+and watch as the tests pass with flying colors. Then inspect the code in ./tests and ./contracts to see what you did. UI and actual functionality coming, but for now that's it. Testing New Key Setup
