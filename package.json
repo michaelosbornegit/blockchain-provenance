@@ -1,0 +1,27 @@
+{
+  "name": "blockchainProvenance",
+  "version": "1.0.0",
+  "description": "This is a simple example of a blockchain smart contract being used to track the location of items over time (item provenance).",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelosbornegit/blockchainProvenance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelosbornegit/blockchainProvenance/issues"
+  },
+  "homepage": "https://github.com/michaelosbornegit/blockchainProvenance#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
