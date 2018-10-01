@@ -22,6 +22,9 @@
   "homepage": "https://github.com/michaelosbornegit/blockchainProvenance#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2"
+    "babel-preset-react-app": "^3.1.2",
+    "drizzle-react": "^1.2.0",
+    "drizzle-react-components": "^1.2.0",
+    "web3": "^1.0.0-beta.36"
   }
 }
