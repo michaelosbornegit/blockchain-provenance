@@ -1,0 +1,1336 @@
+{
+  "contractName": "SmartContractTracksItemState",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "itemRecords",
+      "outputs": [
+        {
+          "name": "barcode",
+          "type": "uint256"
+        },
+        {
+          "name": "locationCode",
+          "type": "uint256"
+        },
+        {
+          "name": "timeStamp",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_identifier",
+          "type": "string"
+        },
+        {
+          "name": "_barcode",
+          "type": "uint256"
+        },
+        {
+          "name": "_locationCode",
+          "type": "uint256"
+        },
+        {
+          "name": "_timeStamp",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateOrAddItem",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5061032b806100206000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630d156c5314610051578063f09f240e146100ae575b600080fd5b34801561005d57600080fd5b5061008a600480360381019080803560001916906020019092919080359060200190929190505050610135565b60405180848152602001838152602001828152602001935050505060405180910390f35b3480156100ba57600080fd5b50610133600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929080359060200190929190803590602001909291908035906020019092919050505061017b565b005b60006020528160005260406000208181548110151561015057fe5b9060005260206000209060030201600091509150508060000154908060010154908060020154905083565b6101836102dd565b606060405190810160405280858152602001848152602001838152509050600080866040516020018082805190602001908083835b6020831015156101dd57805182526020820191506020810190506020830392506101b8565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040516020818303038152906040526040518082805190602001908083835b6020831015156102465780518252602082019150602081019050602083039250610221565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405180910390206000191660001916815260200190815260200160002081908060018154018082558091505090600182039060005260206000209060030201600090919290919091506000820151816000015560208201518160010155604082015181600201555050505050505050565b60606040519081016040528060008152602001600081526020016000815250905600a165627a7a723058207ca1c1f6a5180a65de060c1f7142a1c55254e366bedfcd73b0bc779832f6076b0029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630d156c5314610051578063f09f240e146100ae575b600080fd5b34801561005d57600080fd5b5061008a600480360381019080803560001916906020019092919080359060200190929190505050610135565b60405180848152602001838152602001828152602001935050505060405180910390f35b3480156100ba57600080fd5b50610133600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929080359060200190929190803590602001909291908035906020019092919050505061017b565b005b60006020528160005260406000208181548110151561015057fe5b9060005260206000209060030201600091509150508060000154908060010154908060020154905083565b6101836102dd565b606060405190810160405280858152602001848152602001838152509050600080866040516020018082805190602001908083835b6020831015156101dd57805182526020820191506020810190506020830392506101b8565b6001836020036101000a0380198251168184511680821785525050505050509050019150506040516020818303038152906040526040518082805190602001908083835b6020831015156102465780518252602082019150602081019050602083039250610221565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405180910390206000191660001916815260200190815260200160002081908060018154018082558091505090600182039060005260206000209060030201600090919290919091506000820151816000015560208201518160010155604082015181600201555050505050505050565b60606040519081016040528060008152602001600081526020016000815250905600a165627a7a723058207ca1c1f6a5180a65de060c1f7142a1c55254e366bedfcd73b0bc779832f6076b0029",
+  "sourceMap": "241:733:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;241:733:3;;;;;;;",
+  "deployedSourceMap": "241:733:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;578:50;;8:9:-1;5:2;;;30:1;27;20:12;5:2;578:50:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;641:328;;8:9:-1;5:2;;;30:1;27;20:12;5:2;641:328:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;578:50;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;641:328::-;775:22;;:::i;:::-;800:79;;;;;;;;;819:8;800:79;;;;842:13;800:79;;;;867:10;800:79;;;775:104;;896:11;:53;935:11;918:29;;;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;918:29:3;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;918:29:3;;;908:40;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;51:19;36:153;;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;908:40:3;;;;;;;;;;;;;;;;896:53;;;;;;;;;;;;;;;;;955:5;896:65;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;896:65:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;641:328;;;;;:::o;241:733::-;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.24;\r\n\r\n// This is a simple example of a smart contract where the smart contract holds the\r\n// complete state history of each item using a mapping of unique identifiers to \r\n// dynamically sized arrays of item states.\r\n\r\ncontract SmartContractTracksItemState {\r\n\r\n    struct itemState {\r\n        uint256 barcode;      // The general identifier, what is this item?\r\n        uint256 locationCode; // Where is this item?\r\n        uint256 timeStamp;    // When was this?\r\n    }\r\n    \r\n    // A mapping of unique identifier hashes of items to their records.\r\n    mapping(bytes32 => itemState[]) public itemRecords;\r\n    \r\n    function updateOrAddItem(string _identifier, uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {\r\n        \r\n        itemState memory newIS = itemState({barcode:_barcode, locationCode:_locationCode, timeStamp:_timeStamp});\r\n    \r\n        itemRecords[keccak256(abi.encodePacked(_identifier))].push(newIS);\r\n    }\r\n\r\n}\r\n",
+  "sourcePath": "C:\\Users\\reson\\Documents\\GitHub\\blockchainProvenance\\contracts\\SmartContractTracksItemState.sol",
+  "ast": {
+    "absolutePath": "/C/Users/reson/Documents/GitHub/blockchainProvenance/contracts/SmartContractTracksItemState.sol",
+    "exportedSymbols": {
+      "SmartContractTracksItemState": [
+        172
+      ]
+    },
+    "id": 173,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 127,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 172,
+        "linearizedBaseContracts": [
+          172
+        ],
+        "name": "SmartContractTracksItemState",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "SmartContractTracksItemState.itemState",
+            "id": 134,
+            "members": [
+              {
+                "constant": false,
+                "id": 129,
+                "name": "barcode",
+                "nodeType": "VariableDeclaration",
+                "scope": 134,
+                "src": "316:15:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 128,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "316:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 131,
+                "name": "locationCode",
+                "nodeType": "VariableDeclaration",
+                "scope": 134,
+                "src": "393:20:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 130,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "393:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 133,
+                "name": "timeStamp",
+                "nodeType": "VariableDeclaration",
+                "scope": 134,
+                "src": "447:17:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 132,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "447:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "itemState",
+            "nodeType": "StructDefinition",
+            "scope": 172,
+            "src": "288:205:3",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 139,
+            "name": "itemRecords",
+            "nodeType": "VariableDeclaration",
+            "scope": 172,
+            "src": "578:50:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_array$_t_struct$_itemState_$134_storage_$dyn_storage_$",
+              "typeString": "mapping(bytes32 => struct SmartContractTracksItemState.itemState[])"
+            },
+            "typeName": {
+              "id": 138,
+              "keyType": {
+                "id": 135,
+                "name": "bytes32",
+                "nodeType": "ElementaryTypeName",
+                "src": "586:7:3",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "578:31:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_array$_t_struct$_itemState_$134_storage_$dyn_storage_$",
+                "typeString": "mapping(bytes32 => struct SmartContractTracksItemState.itemState[])"
+              },
+              "valueType": {
+                "baseType": {
+                  "contractScope": null,
+                  "id": 136,
+                  "name": "itemState",
+                  "nodeType": "UserDefinedTypeName",
+                  "referencedDeclaration": 134,
+                  "src": "597:9:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_itemState_$134_storage_ptr",
+                    "typeString": "struct SmartContractTracksItemState.itemState"
+                  }
+                },
+                "id": 137,
+                "length": null,
+                "nodeType": "ArrayTypeName",
+                "src": "597:11:3",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_struct$_itemState_$134_storage_$dyn_storage_ptr",
+                  "typeString": "struct SmartContractTracksItemState.itemState[]"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 170,
+              "nodeType": "Block",
+              "src": "754:215:3",
+              "statements": [
+                {
+                  "assignments": [
+                    151
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 151,
+                      "name": "newIS",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 171,
+                      "src": "775:22:3",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_itemState_$134_memory_ptr",
+                        "typeString": "struct SmartContractTracksItemState.itemState"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 150,
+                        "name": "itemState",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 134,
+                        "src": "775:9:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_itemState_$134_storage_ptr",
+                          "typeString": "struct SmartContractTracksItemState.itemState"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 157,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 153,
+                        "name": "_barcode",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 143,
+                        "src": "819:8:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 154,
+                        "name": "_locationCode",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 145,
+                        "src": "842:13:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 155,
+                        "name": "_timeStamp",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 147,
+                        "src": "867:10:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 152,
+                      "name": "itemState",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 134,
+                      "src": "800:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_struct$_itemState_$134_storage_ptr_$",
+                        "typeString": "type(struct SmartContractTracksItemState.itemState storage pointer)"
+                      }
+                    },
+                    "id": 156,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "structConstructorCall",
+                    "lValueRequested": false,
+                    "names": [
+                      "barcode",
+                      "locationCode",
+                      "timeStamp"
+                    ],
+                    "nodeType": "FunctionCall",
+                    "src": "800:79:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_itemState_$134_memory",
+                      "typeString": "struct SmartContractTracksItemState.itemState memory"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "775:104:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 167,
+                        "name": "newIS",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 151,
+                        "src": "955:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_itemState_$134_memory_ptr",
+                          "typeString": "struct SmartContractTracksItemState.itemState memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_struct$_itemState_$134_memory_ptr",
+                          "typeString": "struct SmartContractTracksItemState.itemState memory"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 158,
+                          "name": "itemRecords",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 139,
+                          "src": "896:11:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_array$_t_struct$_itemState_$134_storage_$dyn_storage_$",
+                            "typeString": "mapping(bytes32 => struct SmartContractTracksItemState.itemState storage ref[] storage ref)"
+                          }
+                        },
+                        "id": 165,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "arguments": [
+                                {
+                                  "argumentTypes": null,
+                                  "id": 162,
+                                  "name": "_identifier",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 141,
+                                  "src": "935:11:3",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_string_memory_ptr",
+                                    "typeString": "string memory"
+                                  }
+                                }
+                              ],
+                              "expression": {
+                                "argumentTypes": [
+                                  {
+                                    "typeIdentifier": "t_string_memory_ptr",
+                                    "typeString": "string memory"
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 160,
+                                  "name": "abi",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 174,
+                                  "src": "918:3:3",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_magic_abi",
+                                    "typeString": "abi"
+                                  }
+                                },
+                                "id": 161,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "lValueRequested": false,
+                                "memberName": "encodePacked",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": null,
+                                "src": "918:16:3",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                  "typeString": "function () pure returns (bytes memory)"
+                                }
+                              },
+                              "id": 163,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "functionCall",
+                              "lValueRequested": false,
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "918:29:3",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bytes_memory_ptr",
+                                "typeString": "bytes memory"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_bytes_memory_ptr",
+                                "typeString": "bytes memory"
+                              }
+                            ],
+                            "id": 159,
+                            "name": "keccak256",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 181,
+                            "src": "908:9:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
+                              "typeString": "function () pure returns (bytes32)"
+                            }
+                          },
+                          "id": 164,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "908:40:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "896:53:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_itemState_$134_storage_$dyn_storage",
+                          "typeString": "struct SmartContractTracksItemState.itemState storage ref[] storage ref"
+                        }
+                      },
+                      "id": 166,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "896:58:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_itemState_$134_storage_$returns$_t_uint256_$",
+                        "typeString": "function (struct SmartContractTracksItemState.itemState storage ref) returns (uint256)"
+                      }
+                    },
+                    "id": 168,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "896:65:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 169,
+                  "nodeType": "ExpressionStatement",
+                  "src": "896:65:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 171,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "updateOrAddItem",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 148,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 141,
+                  "name": "_identifier",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "666:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 140,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "666:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 143,
+                  "name": "_barcode",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "686:16:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 142,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "686:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 145,
+                  "name": "_locationCode",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "704:21:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 144,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "704:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 147,
+                  "name": "_timeStamp",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "727:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 146,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "727:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "665:81:3"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 149,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "754:0:3"
+            },
+            "scope": 172,
+            "src": "641:328:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 173,
+        "src": "241:733:3"
+      }
+    ],
+    "src": "0:976:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/reson/Documents/GitHub/blockchainProvenance/contracts/SmartContractTracksItemState.sol",
+    "exportedSymbols": {
+      "SmartContractTracksItemState": [
+        172
+      ]
+    },
+    "id": 173,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 127,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 172,
+        "linearizedBaseContracts": [
+          172
+        ],
+        "name": "SmartContractTracksItemState",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "SmartContractTracksItemState.itemState",
+            "id": 134,
+            "members": [
+              {
+                "constant": false,
+                "id": 129,
+                "name": "barcode",
+                "nodeType": "VariableDeclaration",
+                "scope": 134,
+                "src": "316:15:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 128,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "316:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 131,
+                "name": "locationCode",
+                "nodeType": "VariableDeclaration",
+                "scope": 134,
+                "src": "393:20:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 130,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "393:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 133,
+                "name": "timeStamp",
+                "nodeType": "VariableDeclaration",
+                "scope": 134,
+                "src": "447:17:3",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 132,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "447:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "itemState",
+            "nodeType": "StructDefinition",
+            "scope": 172,
+            "src": "288:205:3",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 139,
+            "name": "itemRecords",
+            "nodeType": "VariableDeclaration",
+            "scope": 172,
+            "src": "578:50:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_array$_t_struct$_itemState_$134_storage_$dyn_storage_$",
+              "typeString": "mapping(bytes32 => struct SmartContractTracksItemState.itemState[])"
+            },
+            "typeName": {
+              "id": 138,
+              "keyType": {
+                "id": 135,
+                "name": "bytes32",
+                "nodeType": "ElementaryTypeName",
+                "src": "586:7:3",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "578:31:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_array$_t_struct$_itemState_$134_storage_$dyn_storage_$",
+                "typeString": "mapping(bytes32 => struct SmartContractTracksItemState.itemState[])"
+              },
+              "valueType": {
+                "baseType": {
+                  "contractScope": null,
+                  "id": 136,
+                  "name": "itemState",
+                  "nodeType": "UserDefinedTypeName",
+                  "referencedDeclaration": 134,
+                  "src": "597:9:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_itemState_$134_storage_ptr",
+                    "typeString": "struct SmartContractTracksItemState.itemState"
+                  }
+                },
+                "id": 137,
+                "length": null,
+                "nodeType": "ArrayTypeName",
+                "src": "597:11:3",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_array$_t_struct$_itemState_$134_storage_$dyn_storage_ptr",
+                  "typeString": "struct SmartContractTracksItemState.itemState[]"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 170,
+              "nodeType": "Block",
+              "src": "754:215:3",
+              "statements": [
+                {
+                  "assignments": [
+                    151
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 151,
+                      "name": "newIS",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 171,
+                      "src": "775:22:3",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_itemState_$134_memory_ptr",
+                        "typeString": "struct SmartContractTracksItemState.itemState"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 150,
+                        "name": "itemState",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 134,
+                        "src": "775:9:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_itemState_$134_storage_ptr",
+                          "typeString": "struct SmartContractTracksItemState.itemState"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 157,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 153,
+                        "name": "_barcode",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 143,
+                        "src": "819:8:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 154,
+                        "name": "_locationCode",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 145,
+                        "src": "842:13:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "id": 155,
+                        "name": "_timeStamp",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 147,
+                        "src": "867:10:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": null,
+                      "id": 152,
+                      "name": "itemState",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 134,
+                      "src": "800:9:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_struct$_itemState_$134_storage_ptr_$",
+                        "typeString": "type(struct SmartContractTracksItemState.itemState storage pointer)"
+                      }
+                    },
+                    "id": 156,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "structConstructorCall",
+                    "lValueRequested": false,
+                    "names": [
+                      "barcode",
+                      "locationCode",
+                      "timeStamp"
+                    ],
+                    "nodeType": "FunctionCall",
+                    "src": "800:79:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_itemState_$134_memory",
+                      "typeString": "struct SmartContractTracksItemState.itemState memory"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "775:104:3"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 167,
+                        "name": "newIS",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 151,
+                        "src": "955:5:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_itemState_$134_memory_ptr",
+                          "typeString": "struct SmartContractTracksItemState.itemState memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_struct$_itemState_$134_memory_ptr",
+                          "typeString": "struct SmartContractTracksItemState.itemState memory"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "baseExpression": {
+                          "argumentTypes": null,
+                          "id": 158,
+                          "name": "itemRecords",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 139,
+                          "src": "896:11:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_array$_t_struct$_itemState_$134_storage_$dyn_storage_$",
+                            "typeString": "mapping(bytes32 => struct SmartContractTracksItemState.itemState storage ref[] storage ref)"
+                          }
+                        },
+                        "id": 165,
+                        "indexExpression": {
+                          "argumentTypes": null,
+                          "arguments": [
+                            {
+                              "argumentTypes": null,
+                              "arguments": [
+                                {
+                                  "argumentTypes": null,
+                                  "id": 162,
+                                  "name": "_identifier",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 141,
+                                  "src": "935:11:3",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_string_memory_ptr",
+                                    "typeString": "string memory"
+                                  }
+                                }
+                              ],
+                              "expression": {
+                                "argumentTypes": [
+                                  {
+                                    "typeIdentifier": "t_string_memory_ptr",
+                                    "typeString": "string memory"
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": null,
+                                  "id": 160,
+                                  "name": "abi",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 174,
+                                  "src": "918:3:3",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_magic_abi",
+                                    "typeString": "abi"
+                                  }
+                                },
+                                "id": 161,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "lValueRequested": false,
+                                "memberName": "encodePacked",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": null,
+                                "src": "918:16:3",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                  "typeString": "function () pure returns (bytes memory)"
+                                }
+                              },
+                              "id": 163,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "kind": "functionCall",
+                              "lValueRequested": false,
+                              "names": [],
+                              "nodeType": "FunctionCall",
+                              "src": "918:29:3",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_bytes_memory_ptr",
+                                "typeString": "bytes memory"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_bytes_memory_ptr",
+                                "typeString": "bytes memory"
+                              }
+                            ],
+                            "id": 159,
+                            "name": "keccak256",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 181,
+                            "src": "908:9:3",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
+                              "typeString": "function () pure returns (bytes32)"
+                            }
+                          },
+                          "id": 164,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "908:40:3",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes32",
+                            "typeString": "bytes32"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "896:53:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_struct$_itemState_$134_storage_$dyn_storage",
+                          "typeString": "struct SmartContractTracksItemState.itemState storage ref[] storage ref"
+                        }
+                      },
+                      "id": 166,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "push",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "896:58:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_itemState_$134_storage_$returns$_t_uint256_$",
+                        "typeString": "function (struct SmartContractTracksItemState.itemState storage ref) returns (uint256)"
+                      }
+                    },
+                    "id": 168,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "896:65:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 169,
+                  "nodeType": "ExpressionStatement",
+                  "src": "896:65:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 171,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "updateOrAddItem",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 148,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 141,
+                  "name": "_identifier",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "666:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 140,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "666:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 143,
+                  "name": "_barcode",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "686:16:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 142,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "686:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 145,
+                  "name": "_locationCode",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "704:21:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 144,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "704:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 147,
+                  "name": "_timeStamp",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 171,
+                  "src": "727:18:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 146,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "727:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "665:81:3"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 149,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "754:0:3"
+            },
+            "scope": 172,
+            "src": "641:328:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 173,
+        "src": "241:733:3"
+      }
+    ],
+    "src": "0:976:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "1337": {
+      "events": {},
+      "links": {},
+      "address": "0x587596f42a2214aaab0c56c5baa6ad255bb8e846",
+      "transactionHash": "0xee85c23faf7c45c81f33212c33445c08e8a3bb8287a42f91d19b0b07febdabe6"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x0e21b9112b8cb2801ad69a3dd9df401ae6691a75",
+      "transactionHash": "0x33b3dd9339af22182961f62d4fc35746d75e94cc622f58dfe7b64c1870d42b08"
+    }
+  },
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-10-08T04:12:05.431Z"
+}

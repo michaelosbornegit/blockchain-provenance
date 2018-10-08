@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router';
 import ReadSimpleStorage from './ReadSimpleStorage.js'
 import WriteSimpleStorage from './WriteSimpleStorage.js'
 

@@ -2,6 +2,7 @@
   "name": "blockchain-provenance",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://michaelosbornegit.github.io/blockchainProvenance",
   "dependencies": {
     "drizzle": "^1.2.3",
     "drizzle-react": "^1.2.0",
