@@ -1,7 +1,4 @@
 import React from 'react'
-import { AccountData, ContractData, ContractForm } from 'drizzle-react-components'
-import logo from './logo.png'
-import { DrizzleContext } from 'drizzle-react';
 
 class ReadSimpleStorage extends React.Component {
   state = { dataKey: null };
@@ -28,7 +25,7 @@ class ReadSimpleStorage extends React.Component {
 
     // if it exists, then we display its value
     return (
-      <div>
+      <div className="center-text">
         <p>Stored Number: {myNumber && myNumber.value}</p>
       </div>
     );

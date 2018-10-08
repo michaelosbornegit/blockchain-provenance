@@ -4,4 +4,28 @@
   max-width: 600px;
   padding: 45px 20px;
   margin: 0 auto;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: sans-serif;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-picture {
+  display:block;
+  margin:auto;
 }
