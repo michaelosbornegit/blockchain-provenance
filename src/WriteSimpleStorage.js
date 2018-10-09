@@ -40,8 +40,8 @@ class WriteSimpleStorage extends React.Component {
   render() {
     return (
       <div>
-        <input type="text" onKeyDown={this.handleKeyDown} />
-        <div>{ this.getTxStatus() }</div>
+        <input className="center-picture" type="text" onKeyDown={this.handleKeyDown} />
+        <div className="center-text">{ this.getTxStatus() }</div>
       </div>
     );
   }

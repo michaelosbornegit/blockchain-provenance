@@ -12,8 +12,6 @@ class ReadSimpleStorage extends React.Component {
 
     // save the `dataKey` to local component state for later reference
     this.setState({ dataKey });
-
-    
   }
 
   render() {

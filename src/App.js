@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import ReadSimpleStorage from './ReadSimpleStorage.js'
 import WriteSimpleStorage from './WriteSimpleStorage.js'
+import './App.css'
+
 import logo from './logo.png';
 
 class App extends Component {
@@ -30,9 +32,9 @@ class App extends Component {
     if (this.state.loading) return "Loading Drizzle...";
     return (
       <div className="App">
-        <div className="center">
-          <div className="center-text">
-            <img className="center" width="200" height ="200" src={logo} alt="Provenance Logo" />
+        <div className="container">
+          <div className="center-picture">
+            <img className="center-picture" width="200" height ="200" src={logo} alt="Provenance Logo" />
             <h1>Blockchain Provenance Example</h1>
             <p>Tracking a item's location over time and other information related to the item on a blockchain</p>
           </div>
