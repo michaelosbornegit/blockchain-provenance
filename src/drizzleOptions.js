@@ -3,13 +3,13 @@ import SimpleStorage from './contracts/SimpleStorage.json'
 import SmartContractTracksItemState from './contracts/SmartContractTracksItemState.json'
 
 const drizzleOptions = {
-  // web3: {
-  //   block: false,
-  //   fallback: {
-  //     type: 'http',
-  //     url: 'http://192.168.1.41:7545'
-  //   }
-  // },
+  web3: {
+    block: false,
+    fallback: {
+      type: 'http',
+      url: 'http://192.168.1.41:8545'
+    }
+  },
   contracts: [
     SmartContractTracksItemState,
     SimpleStorage,
@@ -18,9 +18,9 @@ const drizzleOptions = {
   events: {
     SimpleStorage: ['StorageSet']
   },
-  // polls: {
-  //   accounts: 1500
-  // }
+  polls: {
+    accounts: 1500
+  }
 }
 
 export default drizzleOptions

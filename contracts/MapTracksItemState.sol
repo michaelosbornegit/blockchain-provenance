@@ -4,7 +4,7 @@ pragma solidity ^0.4.24;
 // complete state history of each item using a mapping of unique identifiers to 
 // dynamically sized arrays of item states.
 
-contract SmartContractTracksItemState {
+contract MapTracksItemState {
 
     struct itemState {
         uint256 barcode;      // The general identifier, what is this item?
