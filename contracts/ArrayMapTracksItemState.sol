@@ -4,7 +4,7 @@ pragma solidity ^0.4.24;
 // complete state history of each item using a mapping of unique identifiers to 
 // dynamically sized arrays of item states.
 
-contract MapTracksItemState {
+contract ArrayMapTracksItemState {
 
     struct itemState {
         uint256 barcode;      // The general identifier, what is this item?
@@ -15,11 +15,16 @@ contract MapTracksItemState {
     // A mapping of unique identifier hashes of items to their records.
     mapping(bytes32 => itemState[]) public itemRecords;
     
-    function updateOrAddItem(string _identifier, uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {
+    function updateOrAddItem(string _identifier, uint256 _barcode, uint256 _locationCode) public {
         
-        itemState memory newIS = itemState({barcode:_barcode, locationCode:_locationCode, timeStamp:_timeStamp});
+        itemState memory newIS = itemState({barcode:_barcode, locationCode:_locationCode, timeStamp: block.timestamp});
     
         itemRecords[keccak256(abi.encodePacked(_identifier))].push(newIS);
+    }
+
+    function getState(string _identifier, uint256 _index) public view returns (uint256, uint256, uint256) {
+        itemState memory tempIS = itemRecords[keccak256(abi.encodePacked(_identifier))][_index];
+        return (tempIS.barcode, tempIS.locationCode, tempIS.timeStamp);
     }
 
 }

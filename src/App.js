@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { drizzleConnect } from 'drizzle-react'
+import PropTypes from 'prop-types'
 import { AccountData, ContractData, ContractForm } from 'drizzle-react-components'
 import ReadSimpleStorage from './ReadSimpleStorage.js'
 import WriteSimpleStorage from './WriteSimpleStorage.js'
@@ -7,8 +9,14 @@ import './App.css'
 import logo from './logo.png';
 
 class App extends Component {
-  state = { loading: false, drizzleState: null };
 
+  constructor(props, context) {
+    super(props);
+
+    this.web3 = context.drizzle.web3;
+    this.identifier = "Hello, World!";
+  }
+  
   // componentDidMount() {
   //   console.log(this.props);
   //   const { drizzle } = this.props;
@@ -30,6 +38,10 @@ class App extends Component {
   //   this.unsubscribe();
   // }
 
+  // componentDidMount() {
+  //   this.context.drizzle
+  // }
+
   render() {
     return (
       <div className="App">
@@ -39,17 +51,21 @@ class App extends Component {
             <h1>Blockchain Provenance Example</h1>
             <p>Tracking a item's location over time and other information related to the item on a blockchain</p>
           </div>
-          <ReadSimpleStorage
-          />
+          <ReadSimpleStorage />
           {/* <WriteSimpleStorage
             drizzle={this.props.drizzle}
             drizzleState={this.state.drizzleState}
           />  */}
-          <ContractData contract="SimpleStorage" method="storedData" />
-          <ContractForm contract="SimpleStorage" method="set" />
-          <ContractForm contract="SmartContractTracksItemState" method="updateOrAddItem" />
-          <ContractData contract="SmartContractTracksItemState" method="" />
-          
+          {/* <ContractData contract="SimpleStorage" method="storedData" /> */}
+          {/* <ContractForm contract="SimpleStorage" method="set" /> */}
+          <h2>Enter an item:</h2>
+          <ContractForm contract="ArrayMapTracksItemState" labels={["Unique Identifier", "Barcode", "Location Code", "Timestamp"]} method="updateOrAddItem" />
+          <h2>Item history for {this.identifier} </h2>
+          <ContractData contract="ArrayMapTracksItemState" method="itemRecords" methodArgs={[this.web3.utils.keccak256(this.identifier), 0]}  />
+          <ContractData contract="ArrayMapTracksItemState" method="itemRecords" methodArgs={[this.web3.utils.keccak256(this.identifier), 1]}  />
+          <br></br>
+          <h2>Active Account:</h2>
+          <AccountData accountIndex="0" units="ether" precision="3" />
 
 
         </div>
@@ -58,4 +74,14 @@ class App extends Component {
   }
 }
 
-export default App;
+App.contextTypes = {
+  drizzle: PropTypes.object
+}
+
+const mapStateToProps = state => {
+  return {
+    contracts: state.contracts
+  }
+}
+
+export default drizzleConnect(App, mapStateToProps);

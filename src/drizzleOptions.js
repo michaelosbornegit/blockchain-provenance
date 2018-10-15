@@ -1,6 +1,6 @@
 import BlockchainTracksItemState from './contracts/BlockchainTracksItemState.json'
 import SimpleStorage from './contracts/SimpleStorage.json'
-import SmartContractTracksItemState from './contracts/SmartContractTracksItemState.json'
+import ArrayMapTracksItemState from './contracts/ArrayMapTracksItemState.json'
 
 const drizzleOptions = {
   web3: {
@@ -11,7 +11,7 @@ const drizzleOptions = {
     }
   },
   contracts: [
-    SmartContractTracksItemState,
+    ArrayMapTracksItemState,
     SimpleStorage,
     BlockchainTracksItemState
   ],

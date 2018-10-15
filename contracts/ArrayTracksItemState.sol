@@ -12,7 +12,7 @@ contract ArrayTracksItemState {
         uint256 timeStamp;    // When was this?
     }
     
-    // A mapping of unique identifier hashes of items to their records.
+    mapping(bytes32 => uint256) public identifierMap;
     itemState[] public itemRecords;
     
     function updateOrAddItem(string _identifier, uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {
