@@ -61,6 +61,21 @@ class App extends Component {
           <h2>Enter an item:</h2>
           <ContractForm contract="ArrayMapTracksItemState" labels={["Unique Identifier", "Barcode", "Location Code", "Timestamp"]} method="updateOrAddItem" />
           <h2>Item history for {this.identifier} </h2>
+
+          {/* TODO:
+              Just figured out how to actually display the information
+              Look at github for drizzle react components to figure out how to actually call this method directly (and put that in a loop)
+              Maybe hold amounts of records in the smart contract, then we would know how long to loop for. (in another map or something)
+
+              Clean up outputs on the webpage to list timestamp first and list names better
+
+              include a way to sort by timestamp possible (but it is already sorted)
+
+
+              Someday show functionality of the page even if we don't have access to the blockchain (just storing values locally or something), this would be awesome.
+          */}
+
+
           <ContractData contract="ArrayMapTracksItemState" method="itemRecords" methodArgs={[this.web3.utils.keccak256(this.identifier), 0]}  />
           <ContractData contract="ArrayMapTracksItemState" method="itemRecords" methodArgs={[this.web3.utils.keccak256(this.identifier), 1]}  />
           <br></br>
