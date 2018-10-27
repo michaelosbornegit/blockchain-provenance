@@ -642,10 +642,10 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x8cbc9532cf4d23c9c809bebfed2bc4f9973a5c63",
-      "transactionHash": "0x60863d053f3809fba14e187e87a521277a9ad4e0a53fa160e1aba785c7b41da2"
+      "address": "0xc111f4fb5a4e2d4ee1a7aeb02a15a0f350660651",
+      "transactionHash": "0x2ea2676ea875cae5c5c995dcdfbf7e92799a4900341d128df53a03f71978bac0"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-16T20:22:28.413Z"
+  "updatedAt": "2018-10-27T01:56:52.380Z"
 }

@@ -5,7 +5,6 @@ import BlockchainTracksItemState from './contracts/BlockchainTracksItemState'
 import ArrayMapTracksItemState from './contracts/ArrayMapTracksItemState'
 import { generateStore } from 'drizzle';
 import { DrizzleProvider } from 'drizzle-react'
-import drizzleOptions from './drizzleOptions'
 import { LoadingContainer } from 'drizzle-react-components'
 
 // Layouts

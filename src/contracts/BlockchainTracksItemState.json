@@ -1249,10 +1249,10 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x820958f149fc6346d5994f8687ba1c50e7fd08c2",
-      "transactionHash": "0x8023d8c1f4f74c59337f46c9c7f5c4dc2cd91f9a9a3e25224d0b7fecc0562d45"
+      "address": "0xbed8547c64f1d1f4ccdb60eb8689c0a66a52b5c7",
+      "transactionHash": "0x15a82b32145fe854ac3bc8d0bfe9b14c1b923c66d74defc30f1f40fd29cfd827"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-16T20:22:28.415Z"
+  "updatedAt": "2018-10-27T01:56:52.381Z"
 }
