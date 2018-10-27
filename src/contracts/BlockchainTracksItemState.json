@@ -65,14 +65,14 @@
     "absolutePath": "/C/Users/reson/Documents/GitHub/blockchainProvenance/contracts/BlockchainTracksItemState.sol",
     "exportedSymbols": {
       "BlockchainTracksItemState": [
-        168
+        177
       ]
     },
-    "id": 169,
+    "id": 178,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 125,
+        "id": 134,
         "literals": [
           "solidity",
           "^",
@@ -88,23 +88,23 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 168,
+        "id": 177,
         "linearizedBaseContracts": [
-          168
+          177
         ],
         "name": "BlockchainTracksItemState",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "BlockchainTracksItemState.itemState",
-            "id": 132,
+            "id": 141,
             "members": [
               {
                 "constant": false,
-                "id": 127,
+                "id": 136,
                 "name": "barcode",
                 "nodeType": "VariableDeclaration",
-                "scope": 132,
+                "scope": 141,
                 "src": "629:15:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -113,7 +113,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 126,
+                  "id": 135,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "629:7:2",
@@ -127,10 +127,10 @@
               },
               {
                 "constant": false,
-                "id": 129,
+                "id": 138,
                 "name": "locationCode",
                 "nodeType": "VariableDeclaration",
-                "scope": 132,
+                "scope": 141,
                 "src": "706:20:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -139,7 +139,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 128,
+                  "id": 137,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "706:7:2",
@@ -153,10 +153,10 @@
               },
               {
                 "constant": false,
-                "id": 131,
+                "id": 140,
                 "name": "timeStamp",
                 "nodeType": "VariableDeclaration",
-                "scope": 132,
+                "scope": 141,
                 "src": "760:17:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -165,7 +165,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 130,
+                  "id": 139,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "760:7:2",
@@ -180,27 +180,27 @@
             ],
             "name": "itemState",
             "nodeType": "StructDefinition",
-            "scope": 168,
+            "scope": 177,
             "src": "601:205:2",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 136,
+            "id": 145,
             "name": "itemRecords",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
+            "scope": 177,
             "src": "896:48:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$132_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$141_storage_$",
               "typeString": "mapping(bytes32 => struct BlockchainTracksItemState.itemState)"
             },
             "typeName": {
-              "id": 135,
+              "id": 144,
               "keyType": {
-                "id": 133,
+                "id": 142,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
                 "src": "904:7:2",
@@ -212,18 +212,18 @@
               "nodeType": "Mapping",
               "src": "896:29:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$132_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$141_storage_$",
                 "typeString": "mapping(bytes32 => struct BlockchainTracksItemState.itemState)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 134,
+                "id": 143,
                 "name": "itemState",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 132,
+                "referencedDeclaration": 141,
                 "src": "915:9:2",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_itemState_$132_storage_ptr",
+                  "typeIdentifier": "t_struct$_itemState_$141_storage_ptr",
                   "typeString": "struct BlockchainTracksItemState.itemState"
                 }
               }
@@ -233,37 +233,37 @@
           },
           {
             "body": {
-              "id": 166,
+              "id": 175,
               "nodeType": "Block",
               "src": "1070:211:2",
               "statements": [
                 {
                   "assignments": [
-                    148
+                    157
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 148,
+                      "id": 157,
                       "name": "newIS",
                       "nodeType": "VariableDeclaration",
-                      "scope": 167,
+                      "scope": 176,
                       "src": "1091:22:2",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$132_memory_ptr",
+                        "typeIdentifier": "t_struct$_itemState_$141_memory_ptr",
                         "typeString": "struct BlockchainTracksItemState.itemState"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 147,
+                        "id": 156,
                         "name": "itemState",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 132,
+                        "referencedDeclaration": 141,
                         "src": "1091:9:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_itemState_$132_storage_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$141_storage_ptr",
                           "typeString": "struct BlockchainTracksItemState.itemState"
                         }
                       },
@@ -271,17 +271,17 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 154,
+                  "id": 163,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 150,
+                        "id": 159,
                         "name": "_barcode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 140,
+                        "referencedDeclaration": 149,
                         "src": "1135:8:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -290,11 +290,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 151,
+                        "id": 160,
                         "name": "_locationCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 142,
+                        "referencedDeclaration": 151,
                         "src": "1158:13:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -303,11 +303,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 152,
+                        "id": 161,
                         "name": "_timeStamp",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 144,
+                        "referencedDeclaration": 153,
                         "src": "1183:10:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -317,18 +317,18 @@
                     ],
                     "expression": {
                       "argumentTypes": null,
-                      "id": 149,
+                      "id": 158,
                       "name": "itemState",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 132,
+                      "referencedDeclaration": 141,
                       "src": "1116:9:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_itemState_$132_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_itemState_$141_storage_ptr_$",
                         "typeString": "type(struct BlockchainTracksItemState.itemState storage pointer)"
                       }
                     },
-                    "id": 153,
+                    "id": 162,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -342,7 +342,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1116:79:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_itemState_$132_memory",
+                      "typeIdentifier": "t_struct$_itemState_$141_memory",
                       "typeString": "struct BlockchainTracksItemState.itemState memory"
                     }
                   },
@@ -352,7 +352,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 164,
+                    "id": 173,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -361,18 +361,18 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 155,
+                        "id": 164,
                         "name": "itemRecords",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 136,
+                        "referencedDeclaration": 145,
                         "src": "1212:11:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$132_storage_$",
+                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$141_storage_$",
                           "typeString": "mapping(bytes32 => struct BlockchainTracksItemState.itemState storage ref)"
                         }
                       },
-                      "id": 162,
+                      "id": 171,
                       "indexExpression": {
                         "argumentTypes": null,
                         "arguments": [
@@ -381,11 +381,11 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 159,
+                                "id": 168,
                                 "name": "_identifier",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 138,
+                                "referencedDeclaration": 147,
                                 "src": "1251:11:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -402,18 +402,18 @@
                               ],
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 157,
+                                "id": 166,
                                 "name": "abi",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 251,
+                                "referencedDeclaration": 260,
                                 "src": "1234:3:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_abi",
                                   "typeString": "abi"
                                 }
                               },
-                              "id": 158,
+                              "id": 167,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
@@ -427,7 +427,7 @@
                                 "typeString": "function () pure returns (bytes memory)"
                               }
                             },
-                            "id": 160,
+                            "id": 169,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -449,18 +449,18 @@
                               "typeString": "bytes memory"
                             }
                           ],
-                          "id": 156,
+                          "id": 165,
                           "name": "keccak256",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 258,
+                          "referencedDeclaration": 267,
                           "src": "1224:9:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
                             "typeString": "function () pure returns (bytes32)"
                           }
                         },
-                        "id": 161,
+                        "id": 170,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -481,7 +481,7 @@
                       "nodeType": "IndexAccess",
                       "src": "1212:53:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$132_storage",
+                        "typeIdentifier": "t_struct$_itemState_$141_storage",
                         "typeString": "struct BlockchainTracksItemState.itemState storage ref"
                       }
                     },
@@ -489,31 +489,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 163,
+                      "id": 172,
                       "name": "newIS",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 148,
+                      "referencedDeclaration": 157,
                       "src": "1268:5:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$132_memory_ptr",
+                        "typeIdentifier": "t_struct$_itemState_$141_memory_ptr",
                         "typeString": "struct BlockchainTracksItemState.itemState memory"
                       }
                     },
                     "src": "1212:61:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_itemState_$132_storage",
+                      "typeIdentifier": "t_struct$_itemState_$141_storage",
                       "typeString": "struct BlockchainTracksItemState.itemState storage ref"
                     }
                   },
-                  "id": 165,
+                  "id": 174,
                   "nodeType": "ExpressionStatement",
                   "src": "1212:61:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 167,
+            "id": 176,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -521,15 +521,15 @@
             "name": "updateOrAddItem",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 145,
+              "id": 154,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 138,
+                  "id": 147,
                   "name": "_identifier",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "982:18:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -538,7 +538,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 137,
+                    "id": 146,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "982:6:2",
@@ -552,10 +552,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 140,
+                  "id": 149,
                   "name": "_barcode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "1002:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -564,7 +564,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 139,
+                    "id": 148,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1002:7:2",
@@ -578,10 +578,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 142,
+                  "id": 151,
                   "name": "_locationCode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "1020:21:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -590,7 +590,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 141,
+                    "id": 150,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1020:7:2",
@@ -604,10 +604,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 144,
+                  "id": 153,
                   "name": "_timeStamp",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "1043:18:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -616,7 +616,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 143,
+                    "id": 152,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1043:7:2",
@@ -633,19 +633,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 146,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1070:0:2"
             },
-            "scope": 168,
+            "scope": 177,
             "src": "957:324:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 169,
+        "scope": 178,
         "src": "557:729:2"
       }
     ],
@@ -655,14 +655,14 @@
     "absolutePath": "/C/Users/reson/Documents/GitHub/blockchainProvenance/contracts/BlockchainTracksItemState.sol",
     "exportedSymbols": {
       "BlockchainTracksItemState": [
-        168
+        177
       ]
     },
-    "id": 169,
+    "id": 178,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 125,
+        "id": 134,
         "literals": [
           "solidity",
           "^",
@@ -678,23 +678,23 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 168,
+        "id": 177,
         "linearizedBaseContracts": [
-          168
+          177
         ],
         "name": "BlockchainTracksItemState",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "BlockchainTracksItemState.itemState",
-            "id": 132,
+            "id": 141,
             "members": [
               {
                 "constant": false,
-                "id": 127,
+                "id": 136,
                 "name": "barcode",
                 "nodeType": "VariableDeclaration",
-                "scope": 132,
+                "scope": 141,
                 "src": "629:15:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -703,7 +703,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 126,
+                  "id": 135,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "629:7:2",
@@ -717,10 +717,10 @@
               },
               {
                 "constant": false,
-                "id": 129,
+                "id": 138,
                 "name": "locationCode",
                 "nodeType": "VariableDeclaration",
-                "scope": 132,
+                "scope": 141,
                 "src": "706:20:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -729,7 +729,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 128,
+                  "id": 137,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "706:7:2",
@@ -743,10 +743,10 @@
               },
               {
                 "constant": false,
-                "id": 131,
+                "id": 140,
                 "name": "timeStamp",
                 "nodeType": "VariableDeclaration",
-                "scope": 132,
+                "scope": 141,
                 "src": "760:17:2",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -755,7 +755,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 130,
+                  "id": 139,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "760:7:2",
@@ -770,27 +770,27 @@
             ],
             "name": "itemState",
             "nodeType": "StructDefinition",
-            "scope": 168,
+            "scope": 177,
             "src": "601:205:2",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 136,
+            "id": 145,
             "name": "itemRecords",
             "nodeType": "VariableDeclaration",
-            "scope": 168,
+            "scope": 177,
             "src": "896:48:2",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$132_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$141_storage_$",
               "typeString": "mapping(bytes32 => struct BlockchainTracksItemState.itemState)"
             },
             "typeName": {
-              "id": 135,
+              "id": 144,
               "keyType": {
-                "id": 133,
+                "id": 142,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
                 "src": "904:7:2",
@@ -802,18 +802,18 @@
               "nodeType": "Mapping",
               "src": "896:29:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$132_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$141_storage_$",
                 "typeString": "mapping(bytes32 => struct BlockchainTracksItemState.itemState)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 134,
+                "id": 143,
                 "name": "itemState",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 132,
+                "referencedDeclaration": 141,
                 "src": "915:9:2",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_itemState_$132_storage_ptr",
+                  "typeIdentifier": "t_struct$_itemState_$141_storage_ptr",
                   "typeString": "struct BlockchainTracksItemState.itemState"
                 }
               }
@@ -823,37 +823,37 @@
           },
           {
             "body": {
-              "id": 166,
+              "id": 175,
               "nodeType": "Block",
               "src": "1070:211:2",
               "statements": [
                 {
                   "assignments": [
-                    148
+                    157
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 148,
+                      "id": 157,
                       "name": "newIS",
                       "nodeType": "VariableDeclaration",
-                      "scope": 167,
+                      "scope": 176,
                       "src": "1091:22:2",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$132_memory_ptr",
+                        "typeIdentifier": "t_struct$_itemState_$141_memory_ptr",
                         "typeString": "struct BlockchainTracksItemState.itemState"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 147,
+                        "id": 156,
                         "name": "itemState",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 132,
+                        "referencedDeclaration": 141,
                         "src": "1091:9:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_itemState_$132_storage_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$141_storage_ptr",
                           "typeString": "struct BlockchainTracksItemState.itemState"
                         }
                       },
@@ -861,17 +861,17 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 154,
+                  "id": 163,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 150,
+                        "id": 159,
                         "name": "_barcode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 140,
+                        "referencedDeclaration": 149,
                         "src": "1135:8:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -880,11 +880,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 151,
+                        "id": 160,
                         "name": "_locationCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 142,
+                        "referencedDeclaration": 151,
                         "src": "1158:13:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -893,11 +893,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 152,
+                        "id": 161,
                         "name": "_timeStamp",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 144,
+                        "referencedDeclaration": 153,
                         "src": "1183:10:2",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -907,18 +907,18 @@
                     ],
                     "expression": {
                       "argumentTypes": null,
-                      "id": 149,
+                      "id": 158,
                       "name": "itemState",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 132,
+                      "referencedDeclaration": 141,
                       "src": "1116:9:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_itemState_$132_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_itemState_$141_storage_ptr_$",
                         "typeString": "type(struct BlockchainTracksItemState.itemState storage pointer)"
                       }
                     },
-                    "id": 153,
+                    "id": 162,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -932,7 +932,7 @@
                     "nodeType": "FunctionCall",
                     "src": "1116:79:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_itemState_$132_memory",
+                      "typeIdentifier": "t_struct$_itemState_$141_memory",
                       "typeString": "struct BlockchainTracksItemState.itemState memory"
                     }
                   },
@@ -942,7 +942,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 164,
+                    "id": 173,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -951,18 +951,18 @@
                       "argumentTypes": null,
                       "baseExpression": {
                         "argumentTypes": null,
-                        "id": 155,
+                        "id": 164,
                         "name": "itemRecords",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 136,
+                        "referencedDeclaration": 145,
                         "src": "1212:11:2",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$132_storage_$",
+                          "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_itemState_$141_storage_$",
                           "typeString": "mapping(bytes32 => struct BlockchainTracksItemState.itemState storage ref)"
                         }
                       },
-                      "id": 162,
+                      "id": 171,
                       "indexExpression": {
                         "argumentTypes": null,
                         "arguments": [
@@ -971,11 +971,11 @@
                             "arguments": [
                               {
                                 "argumentTypes": null,
-                                "id": 159,
+                                "id": 168,
                                 "name": "_identifier",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 138,
+                                "referencedDeclaration": 147,
                                 "src": "1251:11:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_string_memory_ptr",
@@ -992,18 +992,18 @@
                               ],
                               "expression": {
                                 "argumentTypes": null,
-                                "id": 157,
+                                "id": 166,
                                 "name": "abi",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 251,
+                                "referencedDeclaration": 260,
                                 "src": "1234:3:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_abi",
                                   "typeString": "abi"
                                 }
                               },
-                              "id": 158,
+                              "id": 167,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
@@ -1017,7 +1017,7 @@
                                 "typeString": "function () pure returns (bytes memory)"
                               }
                             },
-                            "id": 160,
+                            "id": 169,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1039,18 +1039,18 @@
                               "typeString": "bytes memory"
                             }
                           ],
-                          "id": 156,
+                          "id": 165,
                           "name": "keccak256",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 258,
+                          "referencedDeclaration": 267,
                           "src": "1224:9:2",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
                             "typeString": "function () pure returns (bytes32)"
                           }
                         },
-                        "id": 161,
+                        "id": 170,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1071,7 +1071,7 @@
                       "nodeType": "IndexAccess",
                       "src": "1212:53:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$132_storage",
+                        "typeIdentifier": "t_struct$_itemState_$141_storage",
                         "typeString": "struct BlockchainTracksItemState.itemState storage ref"
                       }
                     },
@@ -1079,31 +1079,31 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 163,
+                      "id": 172,
                       "name": "newIS",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 148,
+                      "referencedDeclaration": 157,
                       "src": "1268:5:2",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$132_memory_ptr",
+                        "typeIdentifier": "t_struct$_itemState_$141_memory_ptr",
                         "typeString": "struct BlockchainTracksItemState.itemState memory"
                       }
                     },
                     "src": "1212:61:2",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_itemState_$132_storage",
+                      "typeIdentifier": "t_struct$_itemState_$141_storage",
                       "typeString": "struct BlockchainTracksItemState.itemState storage ref"
                     }
                   },
-                  "id": 165,
+                  "id": 174,
                   "nodeType": "ExpressionStatement",
                   "src": "1212:61:2"
                 }
               ]
             },
             "documentation": null,
-            "id": 167,
+            "id": 176,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1111,15 +1111,15 @@
             "name": "updateOrAddItem",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 145,
+              "id": 154,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 138,
+                  "id": 147,
                   "name": "_identifier",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "982:18:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1128,7 +1128,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 137,
+                    "id": 146,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "982:6:2",
@@ -1142,10 +1142,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 140,
+                  "id": 149,
                   "name": "_barcode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "1002:16:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1154,7 +1154,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 139,
+                    "id": 148,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1002:7:2",
@@ -1168,10 +1168,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 142,
+                  "id": 151,
                   "name": "_locationCode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "1020:21:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1180,7 +1180,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 141,
+                    "id": 150,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1020:7:2",
@@ -1194,10 +1194,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 144,
+                  "id": 153,
                   "name": "_timeStamp",
                   "nodeType": "VariableDeclaration",
-                  "scope": 167,
+                  "scope": 176,
                   "src": "1043:18:2",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1206,7 +1206,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 143,
+                    "id": 152,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "1043:7:2",
@@ -1223,19 +1223,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 146,
+              "id": 155,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1070:0:2"
             },
-            "scope": 168,
+            "scope": 177,
             "src": "957:324:2",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 169,
+        "scope": 178,
         "src": "557:729:2"
       }
     ],
@@ -1249,10 +1249,10 @@
     "1337": {
       "events": {},
       "links": {},
-      "address": "0x97abeaa569259f4a565f6d29c27ed4e7ee563f96",
-      "transactionHash": "0xb5f03b674a6ffdc0d38a2f43d53670305e1a2185b041b08e8de3f56d4550a830"
+      "address": "0x820958f149fc6346d5994f8687ba1c50e7fd08c2",
+      "transactionHash": "0x8023d8c1f4f74c59337f46c9c7f5c4dc2cd91f9a9a3e25224d0b7fecc0562d45"
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-15T05:10:02.183Z"
+  "updatedAt": "2018-10-16T20:22:28.415Z"
 }

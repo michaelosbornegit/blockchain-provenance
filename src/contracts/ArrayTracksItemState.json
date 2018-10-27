@@ -84,14 +84,14 @@
     "absolutePath": "/C/Users/reson/Documents/GitHub/blockchainProvenance/contracts/ArrayTracksItemState.sol",
     "exportedSymbols": {
       "ArrayTracksItemState": [
-        123
+        132
       ]
     },
-    "id": 124,
+    "id": 133,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 82,
+        "id": 91,
         "literals": [
           "solidity",
           "^",
@@ -107,23 +107,23 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 123,
+        "id": 132,
         "linearizedBaseContracts": [
-          123
+          132
         ],
         "name": "ArrayTracksItemState",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "ArrayTracksItemState.itemState",
-            "id": 89,
+            "id": 98,
             "members": [
               {
                 "constant": false,
-                "id": 84,
+                "id": 93,
                 "name": "barcode",
                 "nodeType": "VariableDeclaration",
-                "scope": 89,
+                "scope": 98,
                 "src": "308:15:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -132,7 +132,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 83,
+                  "id": 92,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "308:7:1",
@@ -146,10 +146,10 @@
               },
               {
                 "constant": false,
-                "id": 86,
+                "id": 95,
                 "name": "locationCode",
                 "nodeType": "VariableDeclaration",
-                "scope": 89,
+                "scope": 98,
                 "src": "385:20:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -158,7 +158,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 85,
+                  "id": 94,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "385:7:1",
@@ -172,10 +172,10 @@
               },
               {
                 "constant": false,
-                "id": 88,
+                "id": 97,
                 "name": "timeStamp",
                 "nodeType": "VariableDeclaration",
-                "scope": 89,
+                "scope": 98,
                 "src": "439:17:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -184,7 +184,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 87,
+                  "id": 96,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "439:7:1",
@@ -199,16 +199,16 @@
             ],
             "name": "itemState",
             "nodeType": "StructDefinition",
-            "scope": 123,
+            "scope": 132,
             "src": "280:205:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 93,
+            "id": 102,
             "name": "identifierMap",
             "nodeType": "VariableDeclaration",
-            "scope": 123,
+            "scope": 132,
             "src": "497:48:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -217,9 +217,9 @@
               "typeString": "mapping(bytes32 => uint256)"
             },
             "typeName": {
-              "id": 92,
+              "id": 101,
               "keyType": {
-                "id": 90,
+                "id": 99,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
                 "src": "505:7:1",
@@ -235,7 +235,7 @@
                 "typeString": "mapping(bytes32 => uint256)"
               },
               "valueType": {
-                "id": 91,
+                "id": 100,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "516:7:1",
@@ -250,36 +250,36 @@
           },
           {
             "constant": false,
-            "id": 96,
+            "id": 105,
             "name": "itemRecords",
             "nodeType": "VariableDeclaration",
-            "scope": 123,
+            "scope": 132,
             "src": "552:30:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_itemState_$89_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_itemState_$98_storage_$dyn_storage",
               "typeString": "struct ArrayTracksItemState.itemState[]"
             },
             "typeName": {
               "baseType": {
                 "contractScope": null,
-                "id": 94,
+                "id": 103,
                 "name": "itemState",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 89,
+                "referencedDeclaration": 98,
                 "src": "552:9:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_itemState_$89_storage_ptr",
+                  "typeIdentifier": "t_struct$_itemState_$98_storage_ptr",
                   "typeString": "struct ArrayTracksItemState.itemState"
                 }
               },
-              "id": 95,
+              "id": 104,
               "length": null,
               "nodeType": "ArrayTypeName",
               "src": "552:11:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_itemState_$89_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_itemState_$98_storage_$dyn_storage_ptr",
                 "typeString": "struct ArrayTracksItemState.itemState[]"
               }
             },
@@ -288,37 +288,37 @@
           },
           {
             "body": {
-              "id": 121,
+              "id": 130,
               "nodeType": "Block",
               "src": "708:173:1",
               "statements": [
                 {
                   "assignments": [
-                    108
+                    117
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 108,
+                      "id": 117,
                       "name": "newIS",
                       "nodeType": "VariableDeclaration",
-                      "scope": 122,
+                      "scope": 131,
                       "src": "729:22:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$89_memory_ptr",
+                        "typeIdentifier": "t_struct$_itemState_$98_memory_ptr",
                         "typeString": "struct ArrayTracksItemState.itemState"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 107,
+                        "id": 116,
                         "name": "itemState",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 89,
+                        "referencedDeclaration": 98,
                         "src": "729:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_itemState_$89_storage_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$98_storage_ptr",
                           "typeString": "struct ArrayTracksItemState.itemState"
                         }
                       },
@@ -326,17 +326,17 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 114,
+                  "id": 123,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 110,
+                        "id": 119,
                         "name": "_barcode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 100,
+                        "referencedDeclaration": 109,
                         "src": "773:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -345,11 +345,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 111,
+                        "id": 120,
                         "name": "_locationCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 102,
+                        "referencedDeclaration": 111,
                         "src": "796:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -358,11 +358,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 112,
+                        "id": 121,
                         "name": "_timeStamp",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
+                        "referencedDeclaration": 113,
                         "src": "821:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -372,18 +372,18 @@
                     ],
                     "expression": {
                       "argumentTypes": null,
-                      "id": 109,
+                      "id": 118,
                       "name": "itemState",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 89,
+                      "referencedDeclaration": 98,
                       "src": "754:9:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_itemState_$89_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_itemState_$98_storage_ptr_$",
                         "typeString": "type(struct ArrayTracksItemState.itemState storage pointer)"
                       }
                     },
-                    "id": 113,
+                    "id": 122,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -397,7 +397,7 @@
                     "nodeType": "FunctionCall",
                     "src": "754:79:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_itemState_$89_memory",
+                      "typeIdentifier": "t_struct$_itemState_$98_memory",
                       "typeString": "struct ArrayTracksItemState.itemState memory"
                     }
                   },
@@ -410,14 +410,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 127,
                         "name": "newIS",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 108,
+                        "referencedDeclaration": 117,
                         "src": "867:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_itemState_$89_memory_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$98_memory_ptr",
                           "typeString": "struct ArrayTracksItemState.itemState memory"
                         }
                       }
@@ -425,24 +425,24 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_itemState_$89_memory_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$98_memory_ptr",
                           "typeString": "struct ArrayTracksItemState.itemState memory"
                         }
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 115,
+                        "id": 124,
                         "name": "itemRecords",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 96,
+                        "referencedDeclaration": 105,
                         "src": "850:11:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_itemState_$89_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_itemState_$98_storage_$dyn_storage",
                           "typeString": "struct ArrayTracksItemState.itemState storage ref[] storage ref"
                         }
                       },
-                      "id": 117,
+                      "id": 126,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -452,11 +452,11 @@
                       "referencedDeclaration": null,
                       "src": "850:16:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_itemState_$89_storage_$returns$_t_uint256_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_itemState_$98_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct ArrayTracksItemState.itemState storage ref) returns (uint256)"
                       }
                     },
-                    "id": 119,
+                    "id": 128,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -470,14 +470,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 120,
+                  "id": 129,
                   "nodeType": "ExpressionStatement",
                   "src": "850:23:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 122,
+            "id": 131,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -485,15 +485,15 @@
             "name": "updateOrAddItem",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 105,
+              "id": 114,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 98,
+                  "id": 107,
                   "name": "_identifier",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "620:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -502,7 +502,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 97,
+                    "id": 106,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "620:6:1",
@@ -516,10 +516,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 100,
+                  "id": 109,
                   "name": "_barcode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "640:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -528,7 +528,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 99,
+                    "id": 108,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "640:7:1",
@@ -542,10 +542,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 102,
+                  "id": 111,
                   "name": "_locationCode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "658:21:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -554,7 +554,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 101,
+                    "id": 110,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "658:7:1",
@@ -568,10 +568,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 104,
+                  "id": 113,
                   "name": "_timeStamp",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "681:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -580,7 +580,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 103,
+                    "id": 112,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "681:7:1",
@@ -597,19 +597,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 106,
+              "id": 115,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "708:0:1"
             },
-            "scope": 123,
+            "scope": 132,
             "src": "595:286:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 124,
+        "scope": 133,
         "src": "241:645:1"
       }
     ],
@@ -619,14 +619,14 @@
     "absolutePath": "/C/Users/reson/Documents/GitHub/blockchainProvenance/contracts/ArrayTracksItemState.sol",
     "exportedSymbols": {
       "ArrayTracksItemState": [
-        123
+        132
       ]
     },
-    "id": 124,
+    "id": 133,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 82,
+        "id": 91,
         "literals": [
           "solidity",
           "^",
@@ -642,23 +642,23 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 123,
+        "id": 132,
         "linearizedBaseContracts": [
-          123
+          132
         ],
         "name": "ArrayTracksItemState",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "ArrayTracksItemState.itemState",
-            "id": 89,
+            "id": 98,
             "members": [
               {
                 "constant": false,
-                "id": 84,
+                "id": 93,
                 "name": "barcode",
                 "nodeType": "VariableDeclaration",
-                "scope": 89,
+                "scope": 98,
                 "src": "308:15:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -667,7 +667,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 83,
+                  "id": 92,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "308:7:1",
@@ -681,10 +681,10 @@
               },
               {
                 "constant": false,
-                "id": 86,
+                "id": 95,
                 "name": "locationCode",
                 "nodeType": "VariableDeclaration",
-                "scope": 89,
+                "scope": 98,
                 "src": "385:20:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -693,7 +693,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 85,
+                  "id": 94,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "385:7:1",
@@ -707,10 +707,10 @@
               },
               {
                 "constant": false,
-                "id": 88,
+                "id": 97,
                 "name": "timeStamp",
                 "nodeType": "VariableDeclaration",
-                "scope": 89,
+                "scope": 98,
                 "src": "439:17:1",
                 "stateVariable": false,
                 "storageLocation": "default",
@@ -719,7 +719,7 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 87,
+                  "id": 96,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
                   "src": "439:7:1",
@@ -734,16 +734,16 @@
             ],
             "name": "itemState",
             "nodeType": "StructDefinition",
-            "scope": 123,
+            "scope": 132,
             "src": "280:205:1",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 93,
+            "id": 102,
             "name": "identifierMap",
             "nodeType": "VariableDeclaration",
-            "scope": 123,
+            "scope": 132,
             "src": "497:48:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -752,9 +752,9 @@
               "typeString": "mapping(bytes32 => uint256)"
             },
             "typeName": {
-              "id": 92,
+              "id": 101,
               "keyType": {
-                "id": 90,
+                "id": 99,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
                 "src": "505:7:1",
@@ -770,7 +770,7 @@
                 "typeString": "mapping(bytes32 => uint256)"
               },
               "valueType": {
-                "id": 91,
+                "id": 100,
                 "name": "uint256",
                 "nodeType": "ElementaryTypeName",
                 "src": "516:7:1",
@@ -785,36 +785,36 @@
           },
           {
             "constant": false,
-            "id": 96,
+            "id": 105,
             "name": "itemRecords",
             "nodeType": "VariableDeclaration",
-            "scope": 123,
+            "scope": 132,
             "src": "552:30:1",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_array$_t_struct$_itemState_$89_storage_$dyn_storage",
+              "typeIdentifier": "t_array$_t_struct$_itemState_$98_storage_$dyn_storage",
               "typeString": "struct ArrayTracksItemState.itemState[]"
             },
             "typeName": {
               "baseType": {
                 "contractScope": null,
-                "id": 94,
+                "id": 103,
                 "name": "itemState",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 89,
+                "referencedDeclaration": 98,
                 "src": "552:9:1",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_itemState_$89_storage_ptr",
+                  "typeIdentifier": "t_struct$_itemState_$98_storage_ptr",
                   "typeString": "struct ArrayTracksItemState.itemState"
                 }
               },
-              "id": 95,
+              "id": 104,
               "length": null,
               "nodeType": "ArrayTypeName",
               "src": "552:11:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_array$_t_struct$_itemState_$89_storage_$dyn_storage_ptr",
+                "typeIdentifier": "t_array$_t_struct$_itemState_$98_storage_$dyn_storage_ptr",
                 "typeString": "struct ArrayTracksItemState.itemState[]"
               }
             },
@@ -823,37 +823,37 @@
           },
           {
             "body": {
-              "id": 121,
+              "id": 130,
               "nodeType": "Block",
               "src": "708:173:1",
               "statements": [
                 {
                   "assignments": [
-                    108
+                    117
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 108,
+                      "id": 117,
                       "name": "newIS",
                       "nodeType": "VariableDeclaration",
-                      "scope": 122,
+                      "scope": 131,
                       "src": "729:22:1",
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_itemState_$89_memory_ptr",
+                        "typeIdentifier": "t_struct$_itemState_$98_memory_ptr",
                         "typeString": "struct ArrayTracksItemState.itemState"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 107,
+                        "id": 116,
                         "name": "itemState",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 89,
+                        "referencedDeclaration": 98,
                         "src": "729:9:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_itemState_$89_storage_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$98_storage_ptr",
                           "typeString": "struct ArrayTracksItemState.itemState"
                         }
                       },
@@ -861,17 +861,17 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 114,
+                  "id": 123,
                   "initialValue": {
                     "argumentTypes": null,
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 110,
+                        "id": 119,
                         "name": "_barcode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 100,
+                        "referencedDeclaration": 109,
                         "src": "773:8:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -880,11 +880,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 111,
+                        "id": 120,
                         "name": "_locationCode",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 102,
+                        "referencedDeclaration": 111,
                         "src": "796:13:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -893,11 +893,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 112,
+                        "id": 121,
                         "name": "_timeStamp",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 104,
+                        "referencedDeclaration": 113,
                         "src": "821:10:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -907,18 +907,18 @@
                     ],
                     "expression": {
                       "argumentTypes": null,
-                      "id": 109,
+                      "id": 118,
                       "name": "itemState",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 89,
+                      "referencedDeclaration": 98,
                       "src": "754:9:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_struct$_itemState_$89_storage_ptr_$",
+                        "typeIdentifier": "t_type$_t_struct$_itemState_$98_storage_ptr_$",
                         "typeString": "type(struct ArrayTracksItemState.itemState storage pointer)"
                       }
                     },
-                    "id": 113,
+                    "id": 122,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -932,7 +932,7 @@
                     "nodeType": "FunctionCall",
                     "src": "754:79:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_itemState_$89_memory",
+                      "typeIdentifier": "t_struct$_itemState_$98_memory",
                       "typeString": "struct ArrayTracksItemState.itemState memory"
                     }
                   },
@@ -945,14 +945,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 118,
+                        "id": 127,
                         "name": "newIS",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 108,
+                        "referencedDeclaration": 117,
                         "src": "867:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_itemState_$89_memory_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$98_memory_ptr",
                           "typeString": "struct ArrayTracksItemState.itemState memory"
                         }
                       }
@@ -960,24 +960,24 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_itemState_$89_memory_ptr",
+                          "typeIdentifier": "t_struct$_itemState_$98_memory_ptr",
                           "typeString": "struct ArrayTracksItemState.itemState memory"
                         }
                       ],
                       "expression": {
                         "argumentTypes": null,
-                        "id": 115,
+                        "id": 124,
                         "name": "itemRecords",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 96,
+                        "referencedDeclaration": 105,
                         "src": "850:11:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_array$_t_struct$_itemState_$89_storage_$dyn_storage",
+                          "typeIdentifier": "t_array$_t_struct$_itemState_$98_storage_$dyn_storage",
                           "typeString": "struct ArrayTracksItemState.itemState storage ref[] storage ref"
                         }
                       },
-                      "id": 117,
+                      "id": 126,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -987,11 +987,11 @@
                       "referencedDeclaration": null,
                       "src": "850:16:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_itemState_$89_storage_$returns$_t_uint256_$",
+                        "typeIdentifier": "t_function_arraypush_nonpayable$_t_struct$_itemState_$98_storage_$returns$_t_uint256_$",
                         "typeString": "function (struct ArrayTracksItemState.itemState storage ref) returns (uint256)"
                       }
                     },
-                    "id": 119,
+                    "id": 128,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1005,14 +1005,14 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 120,
+                  "id": 129,
                   "nodeType": "ExpressionStatement",
                   "src": "850:23:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 122,
+            "id": 131,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1020,15 +1020,15 @@
             "name": "updateOrAddItem",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 105,
+              "id": 114,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 98,
+                  "id": 107,
                   "name": "_identifier",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "620:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1037,7 +1037,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 97,
+                    "id": 106,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "620:6:1",
@@ -1051,10 +1051,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 100,
+                  "id": 109,
                   "name": "_barcode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "640:16:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1063,7 +1063,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 99,
+                    "id": 108,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "640:7:1",
@@ -1077,10 +1077,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 102,
+                  "id": 111,
                   "name": "_locationCode",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "658:21:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1089,7 +1089,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 101,
+                    "id": 110,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "658:7:1",
@@ -1103,10 +1103,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 104,
+                  "id": 113,
                   "name": "_timeStamp",
                   "nodeType": "VariableDeclaration",
-                  "scope": 122,
+                  "scope": 131,
                   "src": "681:18:1",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1115,7 +1115,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 103,
+                    "id": 112,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "681:7:1",
@@ -1132,19 +1132,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 106,
+              "id": 115,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "708:0:1"
             },
-            "scope": 123,
+            "scope": 132,
             "src": "595:286:1",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 124,
+        "scope": 133,
         "src": "241:645:1"
       }
     ],
@@ -1156,5 +1156,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-10-15T05:09:36.727Z"
+  "updatedAt": "2018-10-16T20:19:50.475Z"
 }
