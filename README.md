@@ -2,7 +2,7 @@
 This is a simple example of a blockchain smart contract being used to track the location of items over time (item provenance). This app contains the smart contracts (the real meat of the matter) as well as a GUI using React to interact with the deployed smart contracts.
 
 
----
+
 
 
 ## Smart Contracts
@@ -19,7 +19,7 @@ truffle(develop)> test
 and watch as the tests (hopefully) pass with flying colors. Then inspect the code in `./tests` and `./contracts` to see what actually just happened. 
 
 
----
+
 
 
 ## drizzle-react Front End
@@ -38,7 +38,7 @@ geth --nodiscover --networkid 1337 --datadir . --unlock 0x5f..... --mine --rpc -
 
 Notice the rpcaddr, I run my geth node in a vm and this is it's address on the network. You might want to change it from `192.168.1.41` to `127.0.0.1` (localhost).
 
-The places you're going to have to change the address are:
+You're going to have to change the addresses in these places:
 ```
 ./truffle.js
 ./truffle-config.js
@@ -63,7 +63,7 @@ A window should pop up saying Metamask is not found.
 
 Install the browser extension Metamask, set up/import accounts, connect to your geth node (for me `192.168.1.41:8545`) then you might need to refresh the page then it will be working! It's just that easy!
 
-These steps are mostly for me, if you actually want to see this working and get stuck feel free to reach out.
+These steps are mostly for my use. If you actually want to see this working and get stuck feel free to reach out.
 
 
 
