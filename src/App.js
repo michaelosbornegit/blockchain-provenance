@@ -28,6 +28,8 @@ class App extends Component {
       </div>
       <DisplayContractMethod contract="SimpleStorage" method="storedData" />
       <CallContractMethod contract="SimpleStorage" method="set" />
+      <ContractData contract="SimpleStorage" method="storedData" />
+      <ContractForm contract="SimpleStorage" method="set" />
       <h2>Enter an item:</h2>
       <ContractForm contract="ArrayMapTracksItemState" labels={["Unique Identifier", "Barcode", "Location Code"]} method="updateOrAddItem" />
       <h2>Item history for {this.identifier} + {this.web3.accounts} </h2>
