@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from 'prop-types'
 import { drizzleConnect } from 'drizzle-react'
 
-class CallContractMethod extends React.Component {
+class SubmitItemStateToBlockchain extends React.Component {
   constructor(props, context) {
     super(props);
 
@@ -73,7 +73,7 @@ class CallContractMethod extends React.Component {
   }
 }
 
-CallContractMethod.contextTypes = {
+SubmitItemStateToBlockchain.contextTypes = {
   drizzle: PropTypes.object
 }
 
@@ -84,4 +84,4 @@ const mapStateToProps = state => {
   }
 }
 
-export default drizzleConnect(CallContractMethod, mapStateToProps)
+export default drizzleConnect(SubmitItemStateToBlockchain, mapStateToProps)

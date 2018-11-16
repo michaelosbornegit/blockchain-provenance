@@ -15,7 +15,7 @@ contract ArrayTracksItemState {
     mapping(bytes32 => uint256) public identifierMap;
     itemState[] public itemRecords;
     
-    function updateOrAddItem(string _identifier, uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {
+    function updateOrAddItem(/* string _identifier, */uint256 _barcode, uint256 _locationCode, uint256 _timeStamp) public {
         
         itemState memory newIS = itemState({barcode:_barcode, locationCode:_locationCode, timeStamp:_timeStamp});
     

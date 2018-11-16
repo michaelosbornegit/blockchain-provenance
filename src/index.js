@@ -19,6 +19,6 @@ ReactDOM.render((
       <App />
     </LoadingContainer>
   </DrizzleProvider>
-  ),
+),
   document.getElementById('root')
 );
